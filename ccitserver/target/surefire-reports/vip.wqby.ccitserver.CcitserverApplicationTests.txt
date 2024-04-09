@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: vip.wqby.ccitserver.CcitserverApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.125 s - in vip.wqby.ccitserver.CcitserverApplicationTests

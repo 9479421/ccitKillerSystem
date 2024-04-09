@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "cpdaily",
+      "type": "vip.wqby.ccitserver.pojo.cpDailyConfig",
+      "sourceType": "vip.wqby.ccitserver.pojo.cpDailyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cpdaily.address",
+      "type": "java.lang.String",
+      "sourceType": "vip.wqby.ccitserver.pojo.cpDailyConfig"
+    },
+    {
+      "name": "cpdaily.forms",
+      "type": "java.util.LinkedList<vip.wqby.ccitserver.util.cpDailyForm>",
+      "sourceType": "vip.wqby.ccitserver.pojo.cpDailyConfig"
+    },
+    {
+      "name": "cpdaily.lat",
+      "type": "java.lang.String",
+      "sourceType": "vip.wqby.ccitserver.pojo.cpDailyConfig"
+    },
+    {
+      "name": "cpdaily.lon",
+      "type": "java.lang.String",
+      "sourceType": "vip.wqby.ccitserver.pojo.cpDailyConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,51 @@
+server:
+  port: 9001
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:123456@82.157.146.37:27017/ccit?authSource=admin&authMechanism=SCRAM-SHA-1
+  mail:
+    host: smtp.exmail.qq.com
+    username: wangguoquan@wqby.vip
+    password: BAye6666
+cpdaily:
+  lon: 119.960147 # 经度
+  lat: 31.682442 # 纬度
+  address: "中国江苏省常州市武进区湖塘镇创业大道" # 地址信息 江苏省常州市武进区天健东路22号学生公寓12
+  forms:
+    - title: 目前你居住地（需填写详细地址：省市区（县）街道（镇）社区（村）小区（组）楼栋门牌号）
+      value: 江苏省/常州市/武进区/常州信息职业技术学院
+      isNeed: 1
+    - title: 目前你是否居住在校内（常州信息职业技术学院）
+      value: 是
+      isNeed: 1
+    - title: 你是否发热（体温大于等于37.3度）
+      value: 否
+      isNeed: 1
+    - title: 你是否有呼吸道感染、乏力、腹泻、肌肉酸痛、嗅味觉减弱等症状
+      value: 否
+      isNeed: 1
+    - title: 你是否为疑似/确诊病例/无症状感染者
+      value: 否
+      isNeed: 1
+    - title: 你或与你接触的人员是否为密接者或次密接者
+      value: 否
+      isNeed: 1
+    - title: 7天内你或与你接触的人员是否与正在集中隔离或居家隔离人员接触过
+      value: 否
+      isNeed: 1
+    - title: 目前你是否居住在中高风险区（含境外）、或 7天内你是否有中高风险区（含境外）旅居史
+      value: 否
+      isNeed: 1
+    - title: 目前你是否居住在中高风险区所在县（区）的低风险区、或 7天内你是否有中高风险区所在县（区）的低风险区旅居史
+      value: 否
+      isNeed: 1
+    - title: 目前你是否居住在中高低风险区所在设区市（直辖市为区）的非中高低风险地区、或7天内你是否有中高低风险区所在设区市（直辖市为区）的非中高低风险地区旅居史
+      value: 否
+      isNeed: 1
+    - title: 你的健康码、行程卡是否为“红黄码”
+      value: 否
+      isNeed: 1
+    - title: 请再次确认：以上所填信息是否全部真实有效、不存在任何隐瞒与不实的情况。（任何人瞒报个人目前所在地区、健康状况、接触史、旅居史等疫情防控重点信息，造成后果的须承担法律责任）
+      value: 是
+      isNeed: 1
